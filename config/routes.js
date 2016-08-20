@@ -34,7 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+
+  'GET /qiniu/upToken': 'QiniuController.upToken',
 
   /***************************************************************************
   *                                                                          *
